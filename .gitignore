@@ -1,0 +1,10 @@
+.env
+.DS_Store
+.venv
+*.egg-info/
+*.egg
+__pycache__
+node_modules
+/logs
+.next
+next-env.d.ts

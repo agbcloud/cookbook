@@ -1,0 +1,10 @@
+[project]
+name = "agb-hello-world-python"
+version = "0.1.0"
+description = "Hello world example for AGB"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "agbcloud-sdk",
+    "dotenv",
+]
