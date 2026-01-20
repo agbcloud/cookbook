@@ -40,5 +40,10 @@ Guides and examples for building with [AGB-SDK](https://github.com/agbcloud/agbc
       <td>LangChain with Code Interpreter</td>
       <td><a href="https://github.com/agbcloud/cookbook/tree/main/examples/langchain-python">Python</a></td>
     </tr>
+    <tr>
+      <td rowspan="1">LangGraph</td>
+      <td>LangGraph with Code Interpreter</td>
+      <td><a href="https://github.com/agbcloud/cookbook/tree/main/examples/langgraph-python">Python</a></td>
+    </tr>
   </tbody>
 </table>
