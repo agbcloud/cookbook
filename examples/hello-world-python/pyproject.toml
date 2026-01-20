@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "agbcloud-sdk",
-    "dotenv",
+    "python-dotenv",
 ]
