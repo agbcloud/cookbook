@@ -29,3 +29,5 @@ print("Command output:", cmd_result.output)
 session.file_system.write_file("/tmp/test.txt", "Hello World!")
 file_result = session.file_system.read_file("/tmp/test.txt")
 print("File content:", file_result.content)
+
+agb.delete(session)
