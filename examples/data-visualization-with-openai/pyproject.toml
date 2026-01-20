@@ -1,0 +1,11 @@
+[project]
+name = "data-visualization-with-openai"
+version = "0.1.0"
+description = "Data visualization with OpenAI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "agbcloud-sdk",
+    "dotenv",
+    "openai",
+]
