@@ -10,7 +10,7 @@ This example wires a LangChain agent to an AGB-backed code interpreter tool, run
 ## Setup
 ### Set up .env
 1. Copy .env.example to .env
-2. Get API key from [AGB API key](https://agb.ai/console/overview) and set the `AGB_API_KEY` environment variable
+2. Get API key from [AGB API key](https://agb.cloud/console/overview) and set the `AGB_API_KEY` environment variable
 3. Set the `OPENAI_API_KEY` environment variable
 
 ### Run with uv
