@@ -39,7 +39,7 @@ class CodeInterpreterFunctionTool:
     def _execute_code(self, code: str) -> dict[str, Any]:
         """Execute Python code in the sandbox and return results."""
         print(f"***Code Interpreting...\n{code}\n====")
-        execution = self.sbx.code.run_code(code, "python")
+        execution = self.sbx.code.run(code, "python")
         # Convert results to json-serializable dicts for LangChain tool outputs.
         results = []
         for item in execution.results or []:

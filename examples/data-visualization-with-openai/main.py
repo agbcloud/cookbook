@@ -24,12 +24,12 @@ dataset_path = os.path.join(script_dir, "./dataset.csv")
 sandbox_file_path = "/tmp/dataset.csv"
 
 with open(dataset_path, "r", encoding="utf-8") as f:
-    dataset_path_in_sandbox = sbx.file_system.write_file(sandbox_file_path, f.read())
+    dataset_path_in_sandbox = sbx.file.write(sandbox_file_path, f.read())
 
 
 def run_ai_generated_code(ai_generated_code: str):
     print("Running the code in the sandbox....")
-    execution = sbx.code.run_code(ai_generated_code, "python")
+    execution = sbx.code.run(ai_generated_code, "python")
     print("Code execution finished!")
 
     # First let's check if the code ran successfully.

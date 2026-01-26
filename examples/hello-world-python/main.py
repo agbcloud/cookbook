@@ -18,16 +18,16 @@ session = result.session
 # Use different modules
 
 # Code execution
-code_result = session.code.run_code("import os; print(os.getcwd())", "python")
+code_result = session.code.run("import os; print(os.getcwd())", "python")
 print("Code output:", code_result.logs)
 
 # Command execution
-cmd_result = session.command.execute_command("ls -la")
+cmd_result = session.command.execute("ls -la")
 print("Command output:", cmd_result.output)
 
 # File operations
-session.file_system.write_file("/tmp/test.txt", "Hello World!")
-file_result = session.file_system.read_file("/tmp/test.txt")
+session.file.write("/tmp/test.txt", "Hello World!")
+file_result = session.file.read("/tmp/test.txt")
 print("File content:", file_result.content)
 
 agb.delete(session)
