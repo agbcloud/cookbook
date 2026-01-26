@@ -5,6 +5,9 @@ Guides and examples for building with [AGB-SDK](https://github.com/agbcloud/agbc
 #### Hello world
 - [python](https://github.com/agbcloud/cookbook/tree/main/examples/hello-world-python) - Create a session, run code, execute commands, and read/write files with AGB-SDK.
 
+#### Browser use
+- [python](https://github.com/agbcloud/cookbook/tree/main/examples/browser-use-quick-start) - Start a browser-enabled session and automate a page with Playwright via CDP.
+
 #### Connect to LLM Providers
 <table>
   <thead>
