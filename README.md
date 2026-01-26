@@ -8,6 +8,9 @@ Guides and examples for building with [AGB-SDK](https://github.com/agbcloud/agbc
 #### Browser use
 - [python](https://github.com/agbcloud/cookbook/tree/main/examples/browser-use-quick-start) - Start a browser-enabled session and automate a page with Playwright via CDP.
 
+#### Computer use
+- [python](https://github.com/agbcloud/cookbook/tree/main/examples/computer-use-quick-start) - Start a computer-enabled session, click and type on the screen, and capture a screenshot.
+
 #### Connect to LLM Providers
 <table>
   <thead>
