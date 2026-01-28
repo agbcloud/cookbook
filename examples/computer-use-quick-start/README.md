@@ -1,5 +1,5 @@
 # Computer Use Quick Start for Python
-This example creates a computer-enabled AGB session, clicks on the screen, types text, takes a screenshot, and prints the screenshot URL.
+This example creates a computer-enabled AGB session, open text editor app, types text, takes a screenshot, and prints the screenshot URL.
 
 ## Setup
 ### Set up .env

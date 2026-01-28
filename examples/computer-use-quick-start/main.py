@@ -1,6 +1,5 @@
 from agb import AGB
 from agb.session_params import CreateSessionParams
-from agb import MouseButton
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,7 +11,8 @@ if not create_result.success:
 
 session = create_result.session
 
-session.computer.click_mouse(x=500, y=300, button=MouseButton.LEFT)
+# Open text editor and type text
+session.computer.start_app("gedit %U")
 session.computer.input_text("Hello from AGB!")
 screenshot_result = session.computer.screenshot()
 print("Screenshot URL:", screenshot_result.data)
