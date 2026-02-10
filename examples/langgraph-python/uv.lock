@@ -4,10 +4,11 @@ requires-python = ">=3.11"
 
 [[package]]
 name = "agbcloud-sdk"
-version = "0.9.0"
+version = "0.10.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
+    { name = "certifi" },
     { name = "cryptography" },
     { name = "httpx", extra = ["http2"] },
     { name = "loguru" },
@@ -16,9 +17,9 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f6/66/19d7f9611084757382b7610a432f5f150fac189c3c8f2181f3cc55efb0c4/agbcloud_sdk-0.9.0.tar.gz", hash = "sha256:b2b6e3a26276e4d10652bc6e0ce6f3d2af0b53449d0b3318bf8307dcb4935ed1", size = 114992, upload-time = "2026-01-26T02:46:56.788Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/67/4e880468b579bad50413ce21eff71190f6bdf3926f7d3780f8624008bef7/agbcloud_sdk-0.10.0.tar.gz", hash = "sha256:b184be7eb69ea9c0b7849e9e9469c8ccac2293bd1675a1ac5de8ca8cf6958f4d", size = 120008, upload-time = "2026-02-10T05:48:44.879Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3a/6a/f281ab047c09cf4cc9fa533e5f7d4886284ba6bfc6df84ddf6c08c821207/agbcloud_sdk-0.9.0-py3-none-any.whl", hash = "sha256:fce7990adf262647144f2d25cf51213307a45dc0188f573c202f5472f03a6a2a", size = 156792, upload-time = "2026-01-26T02:46:55.356Z" },
+    { url = "https://files.pythonhosted.org/packages/90/35/22b37d746356833ffc08c480ab1482868cc24352a62fa382fcb62b366bff/agbcloud_sdk-0.10.0-py3-none-any.whl", hash = "sha256:ee93b4d2e6aac54b5bba215fde4e5d7d79a621172666278741b965d9b6e47028", size = 164853, upload-time = "2026-02-10T05:48:43.267Z" },
 ]
 
 [[package]]
@@ -838,7 +839,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "agbcloud-sdk", specifier = "==0.9.0" },
+    { name = "agbcloud-sdk", specifier = "==0.10.0" },
     { name = "langchain-core" },
     { name = "langchain-openai" },
     { name = "langgraph" },
