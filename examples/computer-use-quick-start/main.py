@@ -12,9 +12,9 @@ if not create_result.success:
 session = create_result.session
 
 # Open text editor and type text
-session.computer.start_app("gedit %U")
-session.computer.input_text("Hello from AGB!")
-screenshot_result = session.computer.screenshot()
-print("Screenshot URL:", screenshot_result.data)
+session.computer.app.start("gedit %U")
+session.computer.keyboard.type("Hello from AGB!")
+screen_capture_result = session.computer.screen.capture()
+print("Screenshot URL:", screen_capture_result.data)
 
 agb.delete(session)
